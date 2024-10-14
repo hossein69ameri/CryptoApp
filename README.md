@@ -4,7 +4,7 @@ The application will work with `local` and `remote` data sources. And for the re
 
 Also from the application we can search recipes directly from our API. So if you have your favorite flavor, you can search for it here and you will probably find a lot of amazing recipes. It will also have Favorites Fragment where we can save our favorite recipes to use later when we need them. And finally the app will have its fun side, and that's a food joke snippet.
 # Screen Shot
-<img src="https://github.com/user-attachments/assets/d4d6c48f-b03a-4723-b766-b4b86fa82c2b" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="400" height="600" /> | <img src="https://user-images.githubusercontent.com/103646893/212546497-ce04e86d-6194-4747-8a41-ef0cf9d4d3be.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /> | <img src="https://user-images.githubusercontent.com/103646893/212546516-a930550a-0c6a-4fde-bc4a-649763690086.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<img src="https://github.com/user-attachments/assets/d4d6c48f-b03a-4723-b766-b4b86fa82c2b" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="400" height="855" /> | <img src="https://user-images.githubusercontent.com/103646893/212546497-ce04e86d-6194-4747-8a41-ef0cf9d4d3be.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /> | <img src="https://user-images.githubusercontent.com/103646893/212546516-a930550a-0c6a-4fde-bc4a-649763690086.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 
 Kotlin Coroutines + Flow
 
