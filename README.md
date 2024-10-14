@@ -1,11 +1,20 @@
 # CryptoApp
-The application will work with `local` and `remote` data sources. And for the remote data source, a third-party API for food recipes, called [Spoonacular API](https://spoonacular.com/food-api) , was used. I am going to teach you how to establish a connection between your application and the server. So basically we will send a `GET request` to our `API`  and receive a list of food recipes as a response. Also, the application will not be able to handle any internet connection and store or cache the data locally in the database when needed.
+The application will work with `local` and `remote` data sources. And for the remote data source, a third-party API for food recipes, called [Spoonacular API](https://spoonacular.com/food-api), was used. I am going to teach you how to establish a connection between your application and the server. So basically we will send a `GET request` to our `API` and receive a list of food recipes as a response. Also, the application will not be able to handle any internet connection and store or cache the data locally in the database when needed.
 
-Also from the application we can search recipes directly from our API. So if you have your favorite flavor, you can search for it here and you will probably find a lot of amazing recipes. It will also have Favorites Fragment where we can save our favorite recipes to use later when we need them. And finally the app will have its fun side, and that's a food joke snippet.
+Also from the application we can search recipes directly from our API. So if you have your favorite flavor, you can search for it here and you will probably find a lot of amazing recipes. It will also have a Favorites Fragment where we can save our favorite recipes to use later when we need them. And finally, the app will have its fun side, and that's a food joke snippet.
+
 # Screen Shot
-<img src="https://github.com/user-attachments/assets/d4d6c48f-b03a-4723-b766-b4b86fa82c2b" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="189" height="400" /> | <img src="https://github.com/user-attachments/assets/9215a10d-3942-48d4-84f2-42e58547a665" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="189" height="400" />
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/d4d6c48f-b03a-4723-b766-b4b86fa82c2b" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="189" height="400" />
+    <img src="https://github.com/user-attachments/assets/9215a10d-3942-48d4-84f2-42e58547a665" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="189" height="400" />
+</div>
 
-[crypto3.webm](https://github.com/user-attachments/assets/a0d74995-d9ca-42ab-92fb-4b3cf36e0c3f)
+<div align="center">
+    <video width="320" height="240" controls>
+        <source src="https://github.com/user-attachments/assets/a0d74995-d9ca-42ab-92fb-4b3cf36e0c3f" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+</div>
 
 Kotlin Coroutines + Flow
 
@@ -21,8 +30,6 @@ Motion Layout
 
 ViewPager2
 
-
-
 Dependency injection
 
 # Built with
@@ -30,19 +37,19 @@ Dependency injection
 
 [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) - Data objects that notify views when the underlying database changes.
 
-[DataStore](https://developer.android.com/topic/libraries/architecture/datastore) - Jetpack DataStore is a data storage solution that allows you to store key-value pairs or typed objects with protocol buffers
+[DataStore](https://developer.android.com/topic/libraries/architecture/datastore) - Jetpack DataStore is a data storage solution that allows you to store key-value pairs or typed objects with protocol buffers.
 
 [Retrofit](https://square.github.io/retrofit/) + [OkHttp](https://square.github.io/okhttp/) - RESTful API and networking client.
 
-[Hilt](https://dagger.dev/hilt/)  - Dependency injection.
+[Hilt](https://dagger.dev/hilt/) - Dependency injection.
 
-[ViewBinding](https://developer.android.com/topic/libraries/view-binding)  - View binding is a feature that allows you to more easily write code that interacts with views.
+[ViewBinding](https://developer.android.com/topic/libraries/view-binding) - View binding is a feature that allows you to more easily write code that interacts with views.
 
-[Android Architecture Components](https://developer.android.com/topic/libraries/architecture)  - A collections of libraries that help you design rebust, testable and maintainable apps.
+[Android Architecture Components](https://developer.android.com/topic/libraries/architecture) - A collections of libraries that help you design robust, testable, and maintainable apps.
 
-[ViewModel](https://developer.android.com/reference/androidx/lifecycle/ViewModel)  - UI related data holder, lifecycle aware.
+[ViewModel](https://developer.android.com/reference/androidx/lifecycle/ViewModel) - UI related data holder, lifecycle aware.
 
-[Navigation component](https://developer.android.com/guide/navigation)  -  Fragment routing handler
+[Navigation component](https://developer.android.com/guide/navigation) - Fragment routing handler.
 
 [Coroutines](https://developer.android.com/kotlin/coroutines) - Concurrency design pattern for asynchronous programming.
 
@@ -51,15 +58,17 @@ Dependency injection
 [Coil](https://github.com/coil-kt/coil) - Image loading
 
 # Architectures
-![alt - Github](https://raw.githubusercontent.com/amitshekhariitbhu/MVVM-Architecture-Android/master/assets/mvvm-arch.png)
+<div align="center">
+    <img src="https://raw.githubusercontent.com/amitshekhariitbhu/MVVM-Architecture-Android/master/assets/mvvm-arch.png" alt="alt - Github" />
+</div>
 
-**View** : Activity/Fragment with UI-specific logics only.
+**View**: Activity/Fragment with UI-specific logics only.
 
-**ViewModel** : It keeps the logic away from View layer, provides data streams for UI and handle user interactions
+**ViewModel**: It keeps the logic away from View layer, provides data streams for UI and handles user interactions.
 
-**Model** :  Repository pattern, data layers that provide interface to manipulate data from both the local and remote data sources. The local data sources will serve as single source of truth
+**Model**: Repository pattern, data layers that provide interface to manipulate data from both the local and remote data sources. The local data sources will serve as a single source of truth.
 
 # Contact
-Have an project? DM me at
+Have a project? DM me at
 
 hossein.arabameri69@gmail.com
