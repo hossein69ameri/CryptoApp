@@ -53,11 +53,11 @@ For more information on the CoinGecko API, visit the [CoinGecko: Cryptocurrency 
 # Architectures
 ![1689111067509](https://github.com/user-attachments/assets/fb183b1a-99a0-4966-a120-cc8949673da2)
 
-**View**: View is the UI renderer, displaying the app’s state to the user without handling business logic. It updates based on the Model’s state changes.
+* **View**: View is the UI renderer, displaying the app’s state to the user without handling business logic. It updates based on the Model’s state changes.
 
-**Intent**: Represents user actions or the app itself, like button clicks or text input, it’s all about what the user wants to do in the app. The View catches these intentions and sends them to the Model, which then takes actions (like updating the app’s status)
+* **Intent**: Represents user actions or the app itself, like button clicks or text input, it’s all about what the user wants to do in the app. The View catches these intentions and sends them to the Model, which then takes actions (like updating the app’s status)
 
-**Model**: Holds all the app’s data and logic, like a single source of truth. It’s never directly changed, but updated by creating new states.
+* **Model**: Holds all the app’s data and logic, like a single source of truth. It’s never directly changed, but updated by creating new states.
 
 # Contact
 Have a project? DM me at
