@@ -1,7 +1,7 @@
 # CryptoApp
-The application will work with `local` and `remote` data sources. And for the remote data source, a third-party API for food recipes, called [Spoonacular API](https://spoonacular.com/food-api), was used. I am going to teach you how to establish a connection between your application and the server. So basically we will send a `GET request` to our `API` and receive a list of food recipes as a response. Also, the application will not be able to handle any internet connection and store or cache the data locally in the database when needed.
+This project is a cryptocurrency dashboard that leverages the CoinGecko API to provide users with a comprehensive list of cryptocurrencies and their details. Users can view real-time data about various cryptocurrencies and convert between different cryptocurrencies seamlessly. The application offers an intuitive interface, making it easy to explore market trends and perform conversions efficiently.
 
-Also from the application we can search recipes directly from our API. So if you have your favorite flavor, you can search for it here and you will probably find a lot of amazing recipes. It will also have a Favorites Fragment where we can save our favorite recipes to use later when we need them. And finally, the app will have its fun side, and that's a food joke snippet.
+For more information on the CoinGecko API, visit the [CoinGecko: Cryptocurrency Prices, Charts, and Crypto Market]([https://spoonacular.com/food-api](https://www.coingecko.com/)).
 
 # Screen Shot
 <div align="center">
@@ -9,35 +9,32 @@ Also from the application we can search recipes directly from our API. So if you
     <img src="https://github.com/user-attachments/assets/9215a10d-3942-48d4-84f2-42e58547a665" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="189" height="400" />
 </div>
 
-<div align="center">
-    <video width="320" height="240" controls>
-        <source src="https://github.com/user-attachments/assets/a0d74995-d9ca-42ab-92fb-4b3cf36e0c3f" type="video/webm">
-        Your browser does not support the video tag.
-    </video>
-</div>
+[crypto3.webm](https://github.com/user-attachments/assets/b6e90fc9-8d60-45ce-ad5f-3d7dd554bb8e)
 
-Kotlin Coroutines + Flow
+MVI Architecture
+
+Channel Coroutines
+
+Kotlin Flow
 
 LiveData
 
 Single activity pattern
 
-Offline Cache
-
 REST API
 
-Motion Layout
+Dynamic Response
 
-ViewPager2
+Base Activity ,Fragment
 
 Dependency injection
 
 # Built with
 [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
 
-[LiveData](https://developer.android.com/topic/libraries/architecture/livedata) - Data objects that notify views when the underlying database changes.
+[Font Calligraphy](https://github.com/InflationX/ViewPump) - View Inflation you can intercept.
 
-[DataStore](https://developer.android.com/topic/libraries/architecture/datastore) - Jetpack DataStore is a data storage solution that allows you to store key-value pairs or typed objects with protocol buffers.
+[Chart](https://github.com/diogobernardino/williamchart) - Android Library to rapidly develop attractive and insightful charts in android applications.
 
 [Retrofit](https://square.github.io/retrofit/) + [OkHttp](https://square.github.io/okhttp/) - RESTful API and networking client.
 
@@ -55,20 +52,25 @@ Dependency injection
 
 [Flow](https://developer.android.com/kotlin/flow) - Stream of value that returns from suspend function.
 
-[Coil](https://github.com/coil-kt/coil) - Image loading
+[Coil](https://github.com/coil-kt/coil) - Image loading.
+
+[DynamicSize](https://github.com/MrNouri/DynamicSizes) - New units of measure for support all of screen devices.
 
 # Architectures
-<div align="center">
-    <img src="https://raw.githubusercontent.com/amitshekhariitbhu/MVVM-Architecture-Android/master/assets/mvvm-arch.png" alt="alt - Github" />
-</div>
+![1689111067509](https://github.com/user-attachments/assets/fb183b1a-99a0-4966-a120-cc8949673da2)
 
-**View**: Activity/Fragment with UI-specific logics only.
+**View**: View is the UI renderer, displaying the app’s state to the user without handling business logic. It updates based on the Model’s state changes.
 
-**ViewModel**: It keeps the logic away from View layer, provides data streams for UI and handles user interactions.
+**Intent**: Represents user actions or the app itself, like button clicks or text input, it’s all about what the user wants to do in the app. The View catches these intentions and sends them to the Model, which then takes actions (like updating the app’s status)
 
-**Model**: Repository pattern, data layers that provide interface to manipulate data from both the local and remote data sources. The local data sources will serve as a single source of truth.
+**Model**: Holds all the app’s data and logic, like a single source of truth. It’s never directly changed, but updated by creating new states.
 
 # Contact
 Have a project? DM me at
 
 hossein.arabameri69@gmail.com
+
+# Acknowledgments
+I am deeply grateful to [Mr Mohammad Nouri](https://github.com/MrNouri) for their mentorship and expertise.
+
+
