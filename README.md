@@ -13,23 +13,15 @@ For more information on the CoinGecko API, visit the [CoinGecko: Cryptocurrency 
 
 # Technologies
 
-MVI Architecture
-
-Channel Coroutines
-
-Kotlin Flow
-
-LiveData
-
-Single activity pattern
-
-REST API
-
-Dynamic Response
-
-Base Activity ,Fragment
-
-Dependency injection
+* MVI Architecture
+* Channel Coroutines
+* Kotlin Flow
+* LiveData
+* Single activity pattern
+* REST API
+* Dynamic Response
+* Base Activity ,Fragment
+* Dependency injection
 
 # Built with
 [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
