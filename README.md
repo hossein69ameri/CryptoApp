@@ -65,6 +65,5 @@ Have a project? DM me at
 hossein.arabameri69@gmail.com
 
 # Acknowledgments
-I am deeply grateful to [Mr Mohammad Nouri](https://github.com/MrNouri) for their mentorship and expertise.
-
+Special thanks to [Mr Mohammad Nouri](https://github.com/MrNouri) for providing the course that helped me.
 
