@@ -1,12 +1,12 @@
 # CryptoApp
 This project is a cryptocurrency dashboard that leverages the CoinGecko API to provide users with a comprehensive list of cryptocurrencies and their details. Users can view real-time data about various cryptocurrencies and convert between different cryptocurrencies seamlessly. The application offers an intuitive interface, making it easy to explore market trends and perform conversions efficiently.
 
-For more information on the CoinGecko API, visit the [CoinGecko: Cryptocurrency Prices, Charts, and Crypto Market]([https://spoonacular.com/food-api](https://www.coingecko.com/)).
+For more information on the CoinGecko API, visit the [CoinGecko: Cryptocurrency Prices, Charts, and Crypto Market](https://www.coingecko.com/).
 
 # Screen Shot
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/d4d6c48f-b03a-4723-b766-b4b86fa82c2b" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="189" height="400" />
-    <img src="https://github.com/user-attachments/assets/9215a10d-3942-48d4-84f2-42e58547a665" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="189" height="400" />
+    <img src="https://github.com/user-attachments/assets/d4d6c48f-b03a-4723-b766-b4b86fa82c2b" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="300" height="600" />
+    <img src="https://github.com/user-attachments/assets/9215a10d-3942-48d4-84f2-42e58547a665" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="300" height="600" />
 </div>
 
 [crypto3.webm](https://github.com/user-attachments/assets/b6e90fc9-8d60-45ce-ad5f-3d7dd554bb8e)
