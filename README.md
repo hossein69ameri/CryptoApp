@@ -11,6 +11,8 @@ For more information on the CoinGecko API, visit the [CoinGecko: Cryptocurrency 
 
 [crypto3.webm](https://github.com/user-attachments/assets/b6e90fc9-8d60-45ce-ad5f-3d7dd554bb8e)
 
+# Technologies
+
 MVI Architecture
 
 Channel Coroutines
