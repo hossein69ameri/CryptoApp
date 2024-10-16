@@ -17,6 +17,7 @@ For more information on the CoinGecko API, visit the [CoinGecko: Cryptocurrency 
 * Channel Coroutines
 * Kotlin Flow
 * LiveData
+* Pagination
 * Single activity pattern
 * REST API
 * Dynamic Response
